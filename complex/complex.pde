@@ -1,4 +1,5 @@
 Complex c1 = new Complex(2,5);  //c1=2+5i
+
 void setup() {
   c1.plus(2,-2);    //plus c1  with = 2-2i
   c1.view();
@@ -9,6 +10,7 @@ void setup() {
   c1.multiply(1,1);   //multiply c1 with = 1+1i 
   c1.view();
 }
+
 class Complex {
   int operand1; 
   int operand2; 
@@ -34,8 +36,8 @@ class Complex {
   }
   void multiply(int op1,int op2){
     int newop1,newop2;
-    newop1 = operand1*op1-operand2*op2; 
-    newop2 = operand1*op2+ op2*operand2;
+    newop1 = operand1*op1-operand2*op2;   // (a+bi)(a1+bi) = a*a1+b1*b(i^2)
+    newop2 = operand1*op2+ op1*operand2;  //                 +a*b1(i)+a1+bi
     operand2=newop2;
     operand1=newop1; 
   }
