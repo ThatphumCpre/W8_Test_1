@@ -1,10 +1,12 @@
-Complex c1 = new Complex(1,1);
+Complex c1 = new Complex(2,5);  //c1=2+5i
 void setup() {
-  c1.plus(2,-2);
+  c1.plus(2,-2);    //plus c1  with = 2-2i
   c1.view();
-  c1.minus(-4,-4);
+  c1.minus(-4,-4);  //minus c1 with = -4-4i
   c1.view();
-  c1.multiply(4);
+  c1.multiply(4);   //multiply c1 by 4 
+  c1.view();
+  c1.multiply(1,1);   //multiply c1 with = 1+1i 
   c1.view();
 }
 class Complex {
