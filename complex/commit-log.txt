@@ -1,0 +1,17 @@
+commit 7c603f7eb1368c729fe1a7d58202ba8f6e9d64b0
+Author: Thatphum <s6201012620112@email.kmutnb.ac.th>
+Date:   Tue Aug 25 15:16:33 2020 +0700
+
+    -Bug fixed
+
+commit e0578598eb6193b0c9d09a3cdcdf48dfc4011f97
+Author: Thatphum <s6201012620112@email.kmutnb.ac.th>
+Date:   Tue Aug 25 15:11:41 2020 +0700
+
+    -Add Test case and comment
+
+commit 8be768ab21937e371e6ebb23794e731b767c6f7a
+Author: Thatphum <s6201012620112@email.kmutnb.ac.th>
+Date:   Tue Aug 25 15:04:29 2020 +0700
+
+    first commit
